@@ -67,10 +67,48 @@ body {
     width: 375px;
 }
 
+header {
+    background-color: #EA5045;
+    width: 375px;
+    height: 62px;
+    background-image: url(img/kea.png);
+    background-repeat: no-repeat;
+    background-size: 4em;
+    background-position: 2em;
+}
+
 
 /* -----------
 4. Aflevering
 -----------*/
 
+section {}
 
-/* Login screen */
+h1 {
+    font-family: sans-serif;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #EA5045;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 1em;
+}
+
+p {
+    font-family: sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    background-color: #F2F1F0;
+}
