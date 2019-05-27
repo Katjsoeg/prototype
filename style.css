@@ -3,22 +3,22 @@
 -----------*/
 
 body {
-    background-color: #FAF7F7;
-    height: 812px;
-    width: 375px;
+	background-color: #FAF7F7;
+	height: 812px;
+	width: 375px;
 }
 
 #header {
-    height: 227px;
-    width: 375px;
-    background-color: #EA5045;
+	height: 227px;
+	width: 375px;
+	background-color: #EA5045;
 
 }
 
 img {
-    position: relative;
-    top: 90px;
-    left: 120px;
+	position: relative;
+	top: 90px;
+	left: 120px;
 }
 
 /* -----------
@@ -26,34 +26,34 @@ img {
 -----------*/
 
 input {
-    background-color: white;
-    border-radius: 15px;
-    height: 2em;
-    width: 18em;
+	background-color: white;
+	border-radius: 15px;
+	height: 2em;
+	width: 18em;
 }
 
 #user {
-    position: relative;
-    top: 4em;
-    left: 4em;
+	position: relative;
+	top: 4em;
+	left: 4em;
 }
 
 #password {
-    position: relative;
-    top: 8em;
-    left: 4em;
+	position: relative;
+	top: 8em;
+	left: 4em;
 }
 
 input[type=button] {
-    background-color: #EA5045;
+	background-color: #EA5045;
 
 }
 
 input[type=button2] {
-    border-color: #EA5045;
-    background-image: url(img/facebook.png);
-    background-repeat: no-repeat;
-    background-position: 10px 5px;
+	border-color: #EA5045;
+	background-image: url(img/facebook.png);
+	background-repeat: no-repeat;
+	background-position: 10px 5px;
 
 }
 
@@ -62,19 +62,19 @@ input[type=button2] {
 -----------*/
 
 body {
-    background-color: #FAF7F7;
-    height: 812px;
-    width: 375px;
+	background-color: #FAF7F7;
+	height: 812px;
+	width: 375px;
 }
 
 header {
-    background-color: #EA5045;
-    width: 375px;
-    height: 62px;
-    background-image: url(img/kea.png);
-    background-repeat: no-repeat;
-    background-size: 4em;
-    background-position: 2em;
+	background-color: #EA5045;
+	width: 375px;
+	height: 62px;
+	background-image: url(img/kea.png);
+	background-repeat: no-repeat;
+	background-size: 4em;
+	background-position: 2em;
 }
 
 
@@ -85,63 +85,63 @@ header {
 section {}
 
 h1 {
-    font-family: sans-serif;
+	font-family: sans-serif;
 
 }
 
 h2 {
-    font-family: sans-serif;
-    color: #EA5045;
+	font-family: sans-serif;
+	color: #EA5045;
 }
 
 h3 {
-    font-family: sans-serif;
-    font-style: bold;
-    font-size: 1em;
-    position: relative;
-    top: 0.5em;
+	font-family: sans-serif;
+	font-style: bold;
+	font-size: 1em;
+	position: relative;
+	top: 1.2em;
 }
 
 p {
-    font-family: sans-serif;
-    position: relative;
-    top: 0.1em;
+	font-family: sans-serif;
+	position: relative;
+	top: 0.5em;
 
 }
 
 li {
-    list-style-type: none;
-    position: relative;
-    left: 1em;
+	list-style-type: none;
+	position: relative;
+	left: 1em;
 }
 
 ul {
-    background-color: #F2F1F0;
-    height: 5em;
-    width: 20em;
+	background-color: #F2F1F0;
+	height: 5em;
+	width: 20em;
 }
 
 /*--- Collapsiple ---*/
 
 .collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+	background-color: #F2F1F0;
+	cursor: pointer;
+	padding: 12px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
 }
 
-.active, .collapsible:hover {
-  background-color: #555;
+.active,
+.collapsible:hover {
+	background-color: #F2F1F0;
 }
 
 .content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #F2F1F0;
 }
