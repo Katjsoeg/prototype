@@ -25,11 +25,24 @@ img {
 2.Index
 -----------*/
 
-input[type="continue"] {
-  border-radius: 15%;
-    background-color: #FAF7F7;
-
+input {
+    background-color: white;
+    border-radius: 15px;
+    height: 2em;
+    width: 18em;
 }
+
+#user {
+    position: relative;
+    top: 50px;
+}
+
+#password {
+    position: relative;
+    top: 75px
+}
+
+input[type=password] {}
 
 /* -----------
 3. Landing Page
