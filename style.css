@@ -1,19 +1,50 @@
-/*---
-1. variables & common styling ---*/
+/* -----------
+1.Other
+-----------*/
 
-/*variables*/
+body {
+    background-color: #FAF7F7;
+    height: 812px;
+    width: 375px;
+}
 
-/*common styling classes*/
+#header {
+    height: 227px;
+    width: 375px;
+    background-color: #EA5045;
 
-/*---
-2. Layout/Grid ---*/
+}
 
-/*Grid containers*/
-/*Grid column items*/
-/*Loginpage*/
-/*Loginpage grid*/
+img {
+    position: relative;
+    top: 90px;
+    left: 120px;
+}
 
-/*---
-3. ---*/
-/*---
-4. Table styles ---*/
+/* -----------
+2.Index
+-----------*/
+
+input[type="continue"] {
+  border-radius: 15%;
+    background-color: #FAF7F7;
+
+}
+
+/* -----------
+3. Landing Page
+-----------*/
+
+body {
+    background-color: #FAF7F7;
+    height: 812px;
+    width: 375px;
+}
+
+
+/* -----------
+4. Aflevering
+-----------*/
+
+
+/* Login screen */
