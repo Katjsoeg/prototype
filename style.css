@@ -34,15 +34,28 @@ input {
 
 #user {
     position: relative;
-    top: 50px;
+    top: 4em;
+    left: 4em;
 }
 
 #password {
     position: relative;
-    top: 75px
+    top: 8em;
+    left: 4em;
 }
 
-input[type=password] {}
+input[type=button] {
+    background-color: #EA5045;
+
+}
+
+input[type=button2] {
+    border-color: #EA5045;
+    background-image: url(img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+
+}
 
 /* -----------
 3. Landing Page
