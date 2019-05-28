@@ -40,18 +40,27 @@ input {
 
 input[type=button] {
 	background-color: #EA5045;
+	color: white;
 
 }
 
 input[type=button2] {
 	border-color: #EA5045;
-	background-image: url(img/facebook.png);
-	background-repeat: no-repeat;
-	background-position: 10px 5px;
+	color: #EA5045;
 
 }
 
-input[type=placeholder] {}
+input[type=placeholder] {
+
+	position: relative;
+
+}
+
+#logo {
+	position: relative;
+	left: 1em;
+	bottom: 1.5em;
+}
 
 /* -----------
 3. Landing Page
@@ -59,14 +68,14 @@ input[type=placeholder] {}
 
 body {
 	background-color: #FAF7F7;
-	height: 812px;
-	width: 375px;
+	height: 50.750em;
+	width: 23.438em;
 }
 
 header {
 	background-color: #EA5045;
-	width: 375px;
-	height: 62px;
+	width: 23.4em;
+	height: 3.875em;
 	background-image: url(img/kea.png);
 	background-repeat: no-repeat;
 	background-size: 4em;
@@ -75,8 +84,8 @@ header {
 
 .container {
 	display: grid;
-	grid-template-columns: 125px 125px 125px;
-	grid-template-rows: 125px 125px 125px 125px;
+	grid-template-columns: 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 120px;
 	grid-gap: 10px;
 }
 
@@ -102,8 +111,7 @@ header {
 h4 {
 	font-family: sans-serif;
 	color: #F58E81;
-	margin: 0.5rem;
-	padding: 1rem;
+
 }
 
 
