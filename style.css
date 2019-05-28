@@ -8,12 +8,18 @@ body {
 	width: 375px;
 }
 
+
 #header {
 	height: 227px;
 	width: 375px;
 	background-color: #EA5045;
+	background-image: url(img/kea.png);
+	background-repeat: no-repeat;
+	background-position: 8em;
 
 }
+
+
 
 /* -----------
 2.Index
