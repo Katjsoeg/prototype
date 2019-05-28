@@ -127,7 +127,6 @@ ul {
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
 	background-color: #eee;
-	color: #444;
 	cursor: pointer;
 	padding: 10px;
 	height: 5em;
@@ -144,10 +143,18 @@ ul {
 	background-color: #ccc;
 }
 
+button {
+	padding: 1px 6px;
+	padding-top: 1px;
+	padding-right: 6px;
+	padding
+}
+
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-	padding: 0 12px;
+	padding: 0 18px;
 	background-color: white;
-	display: none;
+	max-height: 0;
 	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
