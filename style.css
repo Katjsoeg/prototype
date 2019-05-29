@@ -253,9 +253,7 @@ header {
 	/*    transform: scale(0);*/
 	transform: translateX(250%);
 	opacity: 0;
-	background-color: #3F3140;
-	height: 812px;
-	width: 375px;
+
 }
 
 #menuknap {
@@ -267,9 +265,13 @@ header {
 }
 
 #menu {
+
 	list-style-type: none;
 	transition: transform .3s;
 	transform-origin: top left;
+	background-color: #3F3140;
+	height: 50vw;
+	width: 22.2vw;
 }
 
 #menu a {
@@ -277,6 +279,16 @@ header {
 	text-decoration: none;
 	font-family: Gibson, sans-serif;
 	font-size: 20px;
-	padding: 10px;
+	padding: 10px 10px 10px 10px;
 
+}
+
+#menu li {
+	margin: 2rem;
+	text-align: center;
+}
+
+.logout {
+	display: flex;
+	width:
 }
