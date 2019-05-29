@@ -21,7 +21,7 @@ body {
 
 .profil {
 	position: relative;
-	padding-left: 20em;
+	padding-left: 18em;
 	top: 1.5em;
 	background-repeat: no-repeat;
 }
@@ -220,6 +220,7 @@ ul {
 	transition: max-height 0.2s ease-out;
 }
 
+.opgave {}
 
 /*--- Burger Menu ---*/
 
@@ -248,6 +249,10 @@ header {
 
 #menuknap {
 	display: inline-block;
+	color: white;
+	position: relative;
+	padding-left: 20em;
+	top: 0.1em;
 }
 
 #menu {
