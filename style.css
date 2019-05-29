@@ -147,9 +147,9 @@ h2 {
 }
 
 h3 {
-	font-family: Arial, sans-serif;
+	font-family: Gibson, sans-serif;
 	font-style: normal;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	padding: 0.1rem;
 	margin: 0.1rem;
 
@@ -158,6 +158,7 @@ h3 {
 p {
 	font-family: sans-serif;
 	padding: 0.1rem;
+	font-size: 0.8rem;
 
 }
 
@@ -182,8 +183,15 @@ ul {
 
 .arrow {
 	position: relative;
-	left: 22em;
-	bottom: 4em;
+	left: 18em;
+	bottom: 3em;
+}
+
+.upload {
+	position: relative;
+	padding-left: 17.5rem;
+	bottom: 2rem;
+
 }
 
 /*--- Accordion ---*/
@@ -192,10 +200,13 @@ ul {
 .accordion {
 	background-color: #eee;
 	cursor: pointer;
-	padding: 10px 10px 10px 10px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	padding-right: 10px;
+	padding-left: 10px;
 	margin: 0.2rem;
 	height: 5rem;
-	width: 25em;
+	width: 20em;
 	text-align: left;
 	border: none;
 	outline: none;
