@@ -19,7 +19,12 @@ body {
 
 }
 
-
+.profil {
+	position: relative;
+	padding-left: 20em;
+	top: 1.5em;
+	background-repeat: no-repeat;
+}
 
 
 /* -----------
@@ -142,8 +147,8 @@ h2 {
 }
 
 h3 {
-	font-family: sans-serif;
-	font-style: bold;
+	font-family: Arial, sans-serif;
+	font-style: normal;
 	font-size: 1rem;
 	padding: 0.1rem;
 	margin: 0.1rem;
@@ -218,11 +223,27 @@ ul {
 
 /*--- Burger Menu ---*/
 
+
+
+header {
+	display: flex;
+
+}
+
+.logo {
+	position: relative;
+	padding-left: 6rem;
+	padding-top: 5em;
+}
+
 .hidden {
 	/*    display: none;*/
 	/*    transform: scale(0);*/
-	transform: translateX(-100%);
+	transform: translateX(250%);
 	opacity: 0;
+	background-color: #3F3140;
+	height: 812px;
+	width: 375px;
 }
 
 #menuknap {
@@ -235,20 +256,11 @@ ul {
 	transform-origin: top left;
 }
 
-@media only screen and (min-width: 600px) {
+#menu a {
+	color: #F58E81;
+	text-decoration: none;
+	font-family: Gibson, sans-serif;
+	font-size: 20px;
+	padding: 10px;
 
-	#menuknap {
-		display: none;
-	}
-
-	#menu.hidden {
-		transform: translateX(0);
-		opacity: 1;
-	}
-
-	#menu li {
-		display: inline-block;
-	}
 }
-
-
