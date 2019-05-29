@@ -30,6 +30,7 @@ input {
 	border-radius: 15px;
 	height: 2em;
 	width: 18em;
+	padding-left: 8px;
 }
 
 #user {
@@ -45,15 +46,18 @@ input {
 }
 
 input[type=button] {
-	background-color: #EA5045;
 	color: white;
+
 
 }
 
-input[type=login] {
-	border-color: #EA5045;
-	color: #EA5045;
+.continue {
+	background-color: #EA5045;
+	color: white;
+}
 
+.login {
+	color: #EA5045;
 }
 
 input[type=placeholder] {
@@ -143,7 +147,7 @@ h2 {
 h3 {
 	font-family: sans-serif;
 	font-style: bold;
-	font-size: 1em;
+	font-size: 1rem;
 	padding: 0.1em;
 	margin: 0.1em;
 
@@ -165,6 +169,7 @@ ul {
 	background-color: #F2F1F0;
 	height: 5em;
 	width: 20em;
+	padding: 10px 10px 10px 10px;
 }
 
 #deliver {
