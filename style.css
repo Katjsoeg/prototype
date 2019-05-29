@@ -125,41 +125,6 @@ h4 {
 
 }
 
-/*--- Burger Menu ---*/
-
-.hidden {
-    /*    display: none;*/
-    /*    transform: scale(0);*/
-    transform: translateX(-100%);
-    opacity: 0;
-}
-
-#menuknap {
-    display: inline-block;
-}
-
-#menu {
-    list-style-type: none;
-    transition: transform .3s;
-    transform-origin: top left;
-}
-
-@media only screen and (min-width: 600px) {
-
-    #menuknap {
-        display: none;
-    }
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    #menu li {
-        display: inline-block;
-    }
-}
-
 
 /* -----------
 4. Aflevering
@@ -204,15 +169,15 @@ ul {
 	padding: 10px 10px 10px 10px;
 }
 
-#deliver {
+.deliver {
 	position: relative;
-	left: 20em;
+	left: 18em;
 	bottom: 2.5em;
 }
 
-#arrow {
+.arrow {
 	position: relative;
-	left: 20em;
+	left: 22em;
 	bottom: 4em;
 }
 
@@ -222,10 +187,10 @@ ul {
 .accordion {
 	background-color: #eee;
 	cursor: pointer;
-	padding: 0.5rem;
+	padding: 10px 10px 10px 10px;
 	margin: 0.2rem;
 	height: 5rem;
-	width: 25rem;
+	width: 25em;
 	text-align: left;
 	border: none;
 	outline: none;
@@ -242,9 +207,48 @@ ul {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-	padding: 0 18px;
+	padding-left: 10px;
 	background-color: white;
 	max-height: 0;
+	width: 20em;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }
+
+
+/*--- Burger Menu ---*/
+
+.hidden {
+	/*    display: none;*/
+	/*    transform: scale(0);*/
+	transform: translateX(-100%);
+	opacity: 0;
+}
+
+#menuknap {
+	display: inline-block;
+}
+
+#menu {
+	list-style-type: none;
+	transition: transform .3s;
+	transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+
+	#menuknap {
+		display: none;
+	}
+
+	#menu.hidden {
+		transform: translateX(0);
+		opacity: 1;
+	}
+
+	#menu li {
+		display: inline-block;
+	}
+}
+
+
