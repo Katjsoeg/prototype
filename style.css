@@ -1,3 +1,14 @@
+/*----
+1. other
+2. Index
+3. landing page
+4. Aflevering
+	- Accordion
+	- Burger menu
+--------*/
+
+
+
 /* -----------
 1.Other
 -----------*/
@@ -127,7 +138,14 @@ header {
 h4 {
 	font-family: sans-serif;
 	color: #F58E81;
+	margin: 2px;
+	padding-bottom: 15px
+}
 
+.grid {
+	width: 35px;
+	height: 35px;
+	margin: 10px;
 }
 
 
