@@ -270,7 +270,6 @@ ul {
 	transition: max-height 0.2s ease-out;
 }
 
-.opgave {}
 
 /*--- Burger Menu ---*/
 
@@ -280,6 +279,13 @@ header {
 	display: flex;
 
 }
+
+nav {
+	position: relative !important;
+	z-index: 9999 !important;
+}
+
+
 
 .logo {
 	position: relative;
@@ -304,13 +310,14 @@ header {
 }
 
 #menu {
-
+	/* position: absolute; */
+	width: 375px;
 	list-style-type: none;
 	transition: transform .3s;
 	transform-origin: top left;
 	background-color: #3F3140;
 	height: 50vw;
-	width: 22.2vw;
+	width: 23.2vw;
 }
 
 #menu a {
@@ -330,4 +337,17 @@ header {
 .logout {
 	display: flex;
 	width:
+}
+
+/* -- log ud -- */
+
+.menu_button {
+	background-color: #F58E81;
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 20px;
+	top: 760px;
+	width: 375px;
+	height: 48px;
+
 }
