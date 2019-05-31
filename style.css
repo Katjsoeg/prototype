@@ -323,46 +323,58 @@ nav {
 
 #menu {
 	/* position: absolute; */
-	width: 375px;
 	list-style-type: none;
 	transition: transform .3s;
 	transform-origin: top left;
 	background-color: #3F3140;
-	height: 50vw;
-	width: 23.2vw;
+	height: 812px;
+	width: 355px;
+	text-align: center;
+
 }
 
 #menu a {
 	color: #F58E81;
 	text-decoration: none;
-	font-family: Gibson, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 20px;
-	padding: 10px 10px 10px 10px;
+
+
 
 }
 
 #menu li {
-	margin: 2rem;
-	text-align: center;
+	margin-top: 20px;
+	width: 355px;
+	padding-left: 10x;
 }
 
-.logout {
-	display: flex;
-	width:
-}
 
 /* -- log ud -- */
 
 #menu li:last-child {
 	background-color: #F58E81;
+	position: absolute;
+	font-weight: 600;
 	font-family: arial, sans-serif;
-
 	font-size: 20px;
-	/*top: 760px;
-	width: 375px;
-	height: 48px;*/
+	padding-top: 15px;
+	height: 48px;
+
 
 }
+
+/*.menu_button{
+	color: white;
+	font-weight: 600;
+	position: fixed;
+	background-color: #EA5045;
+	cursor: pointer;
+	font-size: 1.5em;
+	left: 0;
+
+
+}*/
 
 #menu li:last-child a {
 	color: white;
