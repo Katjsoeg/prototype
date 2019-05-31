@@ -306,7 +306,7 @@ nav {
 }
 
 .hidden {
-	/*    display: none;*/
+	/*	display: none;*/
 	/*    transform: scale(0);*/
 	transform: translateX(250%);
 	opacity: 0;
@@ -353,13 +353,17 @@ nav {
 
 /* -- log ud -- */
 
-.menu_button {
+#menu li:last-child {
 	background-color: #F58E81;
 	font-family: arial, sans-serif;
-	color: white;
-	font-size: 20px;
-	top: 760px;
-	width: 375px;
-	height: 48px;
 
+	font-size: 20px;
+	/*top: 760px;
+	width: 375px;
+	height: 48px;*/
+
+}
+
+#menu li:last-child a {
+	color: white;
 }

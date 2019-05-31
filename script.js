@@ -17,23 +17,25 @@ for (i = 0; i < acc.length; i++) {
 window.addEventListener("load", sidenVises);
 
 function sidenVises() {
-    console.log("sidenVises");
+	console.log("sidenVises");
 
-    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+	document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
 
 }
 
 
 function toggleMenu() {
-    console.log("toggleMenu");
-    document.querySelector("#menu").classList.toggle("hidden");
+	console.log("toggleMenu");
+	document.querySelector("#menu").classList.toggle("hidden");
 
-    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
+	let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 
-    if (erSkjult == true) {
-        document.querySelector("#menuknap").textContent = "☰";
-    } else {
-        document.querySelector("#menuknap").textContent = "X";
-    }
+	if (erSkjult == true) {
+		document.querySelector("#menuknap").textContent = "☰";
+		document.querySelector("#grid_nav").classList.remove("hidden");
+	} else {
+		document.querySelector("#menuknap").textContent = "X";
+		document.querySelector("#grid_nav").classList.add("hidden");
+	}
 }
