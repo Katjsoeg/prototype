@@ -89,6 +89,18 @@ input[type=placeholder] {
 	bottom: 1.5em;
 }
 
+.login_facebook {
+	width: 18em;
+	height: 2em;
+	border-radius: 15px;
+	background-color: white;
+	background-image: url(img/facebook.png);
+	background-repeat: no-repeat;
+	color: #EA5045;
+	margin-top: 5px;
+
+}
+
 /* -----------
 3. Landing Page
 -----------*/
@@ -101,7 +113,7 @@ body {
 
 header {
 	background-color: #EA5045;
-	width: 23.4em;
+	width: 375px;
 	height: 3.875em;
 	background-image: url(img/kea.png);
 	background-repeat: no-repeat;
