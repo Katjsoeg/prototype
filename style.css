@@ -68,14 +68,11 @@ input[type=button] {
 
 }
 
-.continue {
-	background-color: #EA5045;
-	color: white;
-}
 
+/*
 .login {
 	color: #EA5045;
-}
+}*/
 
 input[type=placeholder] {
 	position: relative;
@@ -93,12 +90,25 @@ input[type=placeholder] {
 	width: 18em;
 	height: 2em;
 	border-radius: 15px;
+	border-color: #EA5045;
 	background-color: white;
 	background-image: url(img/facebook.png);
 	background-repeat: no-repeat;
 	color: #EA5045;
 	margin-top: 5px;
 
+}
+
+.submit {
+	width: 18em;
+	height: 2em;
+	border-radius: 15px;
+	background-color: #EA5045;
+
+}
+
+.submit a {
+	color: white;
 }
 
 /* -----------
