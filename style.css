@@ -389,3 +389,8 @@ nav {
 #menu li:last-child a {
 	color: white;
 }
+
+footer {
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
